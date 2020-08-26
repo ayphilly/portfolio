@@ -31,12 +31,12 @@ const AboutPage = () => {
                 <h1>About me {`>`} </h1>
                 <p >Hi there, <span className="hand" role="img" >  &#128075;&#127998;</span></p>      
                 <p>
-                    I work with brands to make them better and 
-                    scale upmake them better and make them and 
-                    I work with brands to make them better and 
-                    scale upmake them better and make them bet 
-                    I work with brands to make them better and 
-                    scale upmake them better and make them and.                    
+                    My name is Ayomiposi Adewale Philemon, i'm a
+                    graduate of Computer Sciences. I basically
+                    love doing anything related to design which
+                    includes Front End development, branding and 
+                    strategizing and motion graphics, i love reading,
+                    learning new things and playing FIFA.                    
                 </p>
                 
             </div>

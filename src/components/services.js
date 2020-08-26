@@ -1,7 +1,5 @@
 import React, {useEffect} from "react"
-import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "../components/image"
 import "./services.css";
 import right from "../images/right.svg";
 import left from "../images/left.svg";
@@ -40,7 +38,7 @@ const Services = () => {
     return (
         <div className="services-page" id="lt-services" data-aos="fade-up">
             <h2>Services {`>`} </h2>
-           <img className="img-1" src={right} />
+           <img className="img-1" src={right} alt="right" />
             <div className="services-box">
             
                 {
@@ -61,7 +59,7 @@ const Services = () => {
                 }
             </div>
 
-            <img className="img-2" src={left}/>
+            <img className="img-2" src={left} alt="left"/>
             
 
             

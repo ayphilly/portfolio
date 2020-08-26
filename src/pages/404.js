@@ -2,7 +2,6 @@ import React, {useEffect} from "react"
 import Layout from "../components/layout"
 import {typing} from "../helper";
 import Particles from 'react-particles-js';
-import Link from "gatsby";
 import "./404.css";
 
 const NotFoundPage = () => {

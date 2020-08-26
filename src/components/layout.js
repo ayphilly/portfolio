@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
 
                 <main>{ children }</main>
                 <footer>
-                    <p>Made with <span className="love" >  &#128150;</span> by Wale</p>
+                    <p>Na me run am with <span className="love" >  &#128150;</span></p>
                     <p>
                         © {new Date().getFullYear()}, Built with
                         {` `}

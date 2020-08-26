@@ -1,4 +1,4 @@
-import { TimelineMax, Power2, TweenMax } from "gsap";
+import { TimelineMax, Power2 } from "gsap";
 import $ from "jquery";
 import TypeIt from "typeit";
 

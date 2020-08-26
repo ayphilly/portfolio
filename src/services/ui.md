@@ -1,8 +1,8 @@
 ---
-title: "Beginning web"
-date: "2018-01-10"
-author: "Chuloo Will"
+title: "User Interface Design"
+date: "2020-08-03"
+author: "Wale Of Blanco"
+
 ---
-Vue.js (commonly referred to as Vue; pronounced /vjuː/, like view) is an open-source progressive JavaScript
-interfaces.[4] Integration into projects that use other JavaScript libraries is made easy with Vue because
-it is designed to be 
+In User Interface Design i help brands to develop their look and feel, the visuals and the presentation of the product
+which can be communicated in their mobile application, website or desktop app.
