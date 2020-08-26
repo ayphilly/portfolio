@@ -42,6 +42,7 @@ header li {
 }
 header .bar-svg {
     display: none;
+    z-index:900;
 }
 
 header li:after {
@@ -81,9 +82,8 @@ and (max-width: 600px) {
         display: flex;
         align-items: center;        
         width:100%;        
-        z-index: 900;
-        
-                
+        z-index: 800;
+          
     }
     
     nav {
@@ -98,6 +98,7 @@ and (max-width: 600px) {
 
     header .bar-svg{
         display: block;
+        z-index:950;
     }
 
      

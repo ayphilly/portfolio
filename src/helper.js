@@ -7,7 +7,7 @@ export const barCont = () => {
     const lineOne = hamburger.querySelector('.l-one');
     const lineTwo = hamburger.querySelector('.l-two');
     const lineThree = hamburger.querySelector('.l-three');
-
+    const overlay = document.querySelector('.overlay');
     const tlm = new TimelineMax({paused:true, reversed:true});
 
     tlm
@@ -17,10 +17,32 @@ export const barCont = () => {
         .to(hamburger,.25, {rotation:360, ease:Power2.easeInOut} )
         .to(lineOne, .25, {rotation:45, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross")
         .to(lineThree, .25, {rotation:-45, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross")
+        .fromTo(overlay, .5, {opacity:0, ease: Power2.easeInOut}, {opacity:1, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross");
 
+    var linking = document.getElementsByClassName("linking");
+
+    for (var i =0; i< linking.length; i++) {
+        linking[i].addEventListener("click", function () {
+            const overlay = document.querySelector('.overlay');
+            overlay.style.opacity=0;
+            tlm.reversed()? tlm.play() : tlm.reverse();
+        });
+    }
     hamburger.addEventListener('click', _=>{
         tlm.reversed()? tlm.play() : tlm.reverse();
     })
+}
+
+
+export const closeLink = () => {
+    var linking = document.getElementsByClassName("linking");
+
+    for (var i =0; i< linking.length; i++) {
+        linking[i].addEventListener("click", function () {
+            const overlay = document.querySelector('.overlay');
+            overlay.style.display="none";
+        });
+    }
 }
 
 // export const clickNav = ()=> {
