@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
     return (
         <div className="body">
             <Helmet        
-                    title="The Grey Web Blog"
+                    title="WaleOfBlanco"
                     meta ={[
                     {name : "description", content:"sample"},
                     { name: 'keywords', content: 'sample, something' }

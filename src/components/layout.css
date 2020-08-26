@@ -96,6 +96,7 @@ and (max-width: 600px) {
         width: 100%;        
         display: flex;
         flex-direction:column;
+        align-items: center;
         justify-content: center;
         align-items: center;
         font-style: normal;
@@ -109,6 +110,14 @@ and (max-width: 600px) {
     footer a {
         /* text-decoration: none; */
         color: #000;
+    }
+
+    .sc-icons {
+        width:50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top:10px;
     }
 
        

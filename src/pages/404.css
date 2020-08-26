@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=VT323';
+
+
+.error {
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    height:100vh;
+    /* background-color: red;    */
+    justify-content: center;
+}
+
+.element {
+
+    margin-top: 600px;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size:30px;    
+    word-wrap: break-word; 
+    color: #000;
+    z-index: 1000;    
+    min-width:100%; 
+      
+
+}
+
+.particles {
+    height: 95vh;
+}

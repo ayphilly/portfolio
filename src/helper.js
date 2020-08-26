@@ -1,5 +1,6 @@
 import { TimelineMax, Power2, TweenMax } from "gsap";
 import $ from "jquery";
+import TypeIt from "typeit";
 
 export const barCont = () => {
     const hamburger = document.querySelector('.hamburger');        
@@ -52,6 +53,29 @@ export const clicky = () => {
     });
 
 }
+
+export const typing = () => {
+    new TypeIt(".element", {
+        speed: 50,
+        startDelay: 900
+      })
+      
+        .type(" Looks like Yo just hit,", {delay: 100})
+        .move(-10, {speed: 50, delay: 100})            
+        .type('u')
+        .move('END')
+        .delete(24, {delay: 600})
+        .type("s route that doesn`t exist", {delay: 100})
+        .move(-25, {speed: 50, delay: 100})
+        .delete(1)
+        .type('a')        
+        .move('END')
+        .delete(27, {delay: 600})
+        .type('<em><strong>Error 404</strong></em>')
+        .go();
+}
+
+// Looks like You just hit a route that doesn`t exist... the sadness.
 
 
     
