@@ -21,7 +21,7 @@
     line-height: 0.6rem;
     font-family: "Poppins", 'sans-serif';
     position: relative;
-    left:80px;
+    left:60px;
     margin-bottom:50px;
 }
 
@@ -84,7 +84,7 @@
     position: absolute;
     float:right;
     right: 60px;
-    bottom:0%;
+    bottom:2%;
     width:250px;
     height:250px;
     
@@ -122,14 +122,14 @@
     /* margin-left: -40px; */
     float: left;
     left:-240px;
-    margin-top:30px;
+    margin-top:0px;
 
 }
 
 .services-box h1 {
     font-style: normal;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 2.5rem;
     font-family: "Poppins", 'sans-serif';
     margin-bottom:50px;
@@ -139,11 +139,15 @@
 .services-box p {
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;    
+    /* font-size: 16px;     */
+    font-size: 13px; 
     font-family: "Poppins", 'sans-serif';
-    height: fit-content;
-    width: fit-content;
+    height: auto;
+    width: 110%;
     text-align: justify;
+    /* background-color: pink; */
+    overflow-wrap: break-word;
+    margin-top:-15px;
 }
 
 
@@ -173,9 +177,10 @@ and (max-width: 600px) {
         line-height: 0.6rem;
         font-family: "Poppins", 'sans-serif';
         position: relative;
-        margin-left:-20px;
+        margin-left:10px;
         /* margin-right:100px;  */
-        margin-top: 50px;
+        margin-top: 20px;
+       
     }
 
     .services-page h2:after {
@@ -225,7 +230,7 @@ and (max-width: 600px) {
         align-content: center;
         height: 100vh;
         justify-content: center; 
-        margin-top: -40px;
+        margin-top: -20px;
         
         
     }
@@ -245,7 +250,7 @@ and (max-width: 600px) {
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
-        /* line-height: 1rem; */
+        line-height: 1.4rem;
         font-family: "Poppins", 'sans-serif';        
         position: relative;
     }

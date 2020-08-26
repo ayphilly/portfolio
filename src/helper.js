@@ -18,7 +18,7 @@ export const barCont = () => {
         .to(lineOne, .25, {rotation:45, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross")
         .to(lineThree, .25, {rotation:-45, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross")
         .fromTo(overlay, .5, {opacity:0, ease: Power2.easeInOut}, {opacity:1, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross");
-
+    overlay.style.display="block";
     var linking = document.getElementsByClassName("linking");
 
     for (var i =0; i< linking.length; i++) {
@@ -67,9 +67,7 @@ export const clicky = () => {
 
         $root.animate({
             scrollTop: $(href).offset().top + 100
-        }, 500, function () {
-            window.location.hash = href;
-        });
+        }, 500);
 
         return false;
     });

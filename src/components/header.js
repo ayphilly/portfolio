@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React, {useEffect } from "react"
-import { useStaticQuery, graphql } from "gatsby"
+
 import "./header.css"
 import {barCont,clicky} from "../helper";
 import logo from "../images/waleLogo1.svg";

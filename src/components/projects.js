@@ -15,6 +15,7 @@ const Projects = () => {
           totalCount
           edges {
             node {
+              id
               frontmatter {
                 title
                 date

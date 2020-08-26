@@ -2,7 +2,7 @@
 
 
 .myname {
-    margin-top:150px;
+    margin-top:100px;
     width: 100%;
     /* height: 50vh; */
     display: flex;
@@ -12,20 +12,11 @@
     padding: 0px; 
     /* background-color: pink;       */
 }
-.overlay {
-    width:90%;
-    height: 100vh;
-    background-color:#fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    opacity:0;
-    z-index:900;
-    position: absolute;
-    margin-bottom:150px;
+.overlay {    
+    position:absolute;
+    display:none;    
 }
-
+/* 
 .overlay h1 {
     font-style: normal;
     font-weight: 900;
@@ -39,7 +30,7 @@
 .overlay h1 a {
     color: #000;
     text-decoration: none;
-}
+} */
 .word {
     /* margin-left:20px; */
     left: 40px;
@@ -106,6 +97,36 @@
 @media screen and (min-width: 300px) 
 and (max-width: 600px) {
 
+    .overlay {
+        display:flex;
+        flex-direction: column;
+        width:90%;
+        height: 100vh;
+        background-color:#fff;        
+        align-items: center;
+        justify-content: center;
+        opacity:0;
+        z-index:700;
+        position: absolute;
+        text-align: center;
+        top:10%;
+        /* margin-bottom:150px; */
+    }
+    .overlay h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        text-align: justify;
+        font-family: "Poppins", 'sans-serif';
+        top:-100px;
+        height:20px;
+        color:#000;
+        margin-left:35px;
+    }
+    .overlay h1 a {
+        color: #000;
+        text-decoration: none;
+    }
     
     .myname {
         margin-top:100px;

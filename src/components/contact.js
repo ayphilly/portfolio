@@ -70,21 +70,18 @@ const Contact = () => {
 
     return <div className="contact" id="lt-contact" data-aos="fade-up">
          
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} data-netlify="true" >
             <div className="form-cover">
                 <b> <strong> Contact-Me </strong>  </b>
                 <p className="contact-text">
-                Thank you, i'll contact you soon
-                Thank you, i'll contact you soon
-                Thank you, i'll contact you soon
-                Thank you, i'll contact you soon
-                Thank you, i'll contact you soon
-                Thank you, i'll contact you soon
+                    Shoot me a mail at <strong>@aphilemon.aa@gmail.com</strong> if you have a job for me,
+                    i'm currently available and willing to collaborate, you can also send 
+                    me your email address so i can contact you.
                 </p>
 
                 <label>Email:</label>
                 <div className="form-mail">
-                    <input type="text" onChange={ validateMail} name="email" placeholder="johnDoe@mail.com" />
+                    <input type="text" onChange={ validateMail} name="email" placeholder="johnDoe@mail.com"  />
                     <input type="submit" value="Submit" />
                 </div>
             </div>

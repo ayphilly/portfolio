@@ -17,12 +17,13 @@ const Services = () => {
           totalCount
           edges {
             node {
+              id
               frontmatter {
                 title
                 date
                 author
               }
-              excerpt
+              excerpt(pruneLength: 350)
               timeToRead
             }
           }

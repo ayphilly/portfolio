@@ -98,7 +98,7 @@ and (max-width: 600px) {
 
     header .bar-svg{
         display: block;
-        z-index:950;
+        z-index:900;
     }
 
      

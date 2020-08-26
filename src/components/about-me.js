@@ -33,9 +33,10 @@ const AboutPage = () => {
                 <p>
                     My name is Ayomiposi Adewale Philemon, i'm a
                     graduate of Computer Sciences. I basically
-                    love doing anything related to design which
-                    includes Front End development, branding and 
-                    strategizing and motion graphics, i love reading,
+                    love doing anything relating to design which
+                    includes<b> Front End development (if need be 
+                    at times i do back-end), branding and 
+                    strategizing and motion graphics,</b> i love reading,
                     learning new things and playing FIFA.                    
                 </p>
                 
