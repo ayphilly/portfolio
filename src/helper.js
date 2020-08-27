@@ -1,9 +1,15 @@
-import { TimelineMax, Power2 } from "gsap";
+import { TimelineMax, Power2, gsap } from "gsap";
 // import $ from "jquery";
 import TypeIt from "typeit";
 import loadable from '@loadable/component'
 // const $ = loadable(() => import('jquery'))
 const $ = typeof window !== `undefined` ? require("jquery") : null
+import { CSSPlugin } from 'gsap/CSSPlugin'
+
+
+// Force CSSPlugin to not get dropped during build
+gsap.registerPlugin(CSSPlugin)
+
 
 export const barCont = () => {
     const hamburger = document.querySelector('.hamburger');        
@@ -11,7 +17,7 @@ export const barCont = () => {
     const lineTwo = hamburger.querySelector('.l-two');
     const lineThree = hamburger.querySelector('.l-three');
     const overlay = document.querySelector('.overlay');
-    const tlm = new TimelineMax({paused:true, reversed:true});
+    const tlm = new gsap({paused:true, reversed:true});
 
     tlm
         .to(lineTwo,.125, {scaleX:0, ease: Power2.easeInOut})

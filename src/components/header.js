@@ -4,6 +4,8 @@ import React, {useEffect } from "react"
 import "./header.css"
 import {barCont,clicky} from "../helper";
 import logo from "../images/waleLogo1.svg";
+import { TimelineLite, CSSPlugin } from 'gsap/all';
+const plugins = [ CSSPlugin ];
 // import loadable from '@loadable/component'
 // const {barCont, clicky} = loadable(() => import('../helper'))
 

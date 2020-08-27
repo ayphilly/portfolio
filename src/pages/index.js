@@ -10,6 +10,8 @@ import "./index.css";
 import AboutPage from "../components/about-me";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { TimelineLite, CSSPlugin } from 'gsap/all';
+const plugins = [ CSSPlugin ];
 import {barCont} from "../helper";
 
 const IndexPage = () => {
