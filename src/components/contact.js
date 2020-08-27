@@ -81,7 +81,7 @@ const Contact = () => {
 
                 <label>Email:</label>
                 <div className="form-mail">
-                    <input type="text" onChange={ validateMail} name="email" placeholder="johnDoe@mail.com"  />
+                    <input type="email" onChange={ validateMail} name="email" placeholder="johnDoe@mail.com"  />
                     <input type="submit" value="Submit" />
                 </div>
             </div>
