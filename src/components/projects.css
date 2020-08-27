@@ -164,7 +164,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        height:fit-content;
+        height:auto;
         display: flex;
         flex-direction: column;
         position: relative;
