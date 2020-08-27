@@ -5,7 +5,7 @@ exports.onCreateWebpackConfig = ({
     const { setWebpackConfig } = actions;
     setWebpackConfig({
       externals: {
-        jquery: 'jquery', // important: 'Q' capitalized
+        jquery: 'jQuery', // important: 'Q' capitalized
       }
     })
   }
