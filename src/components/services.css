@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
     align-content: center;
     justify-content: center;
     align-items: flex-start;
@@ -293,6 +293,8 @@ and (max-width: 900px) {
         line-height: 0.6rem;
         font-family: "Poppins", 'sans-serif';
         position: relative;
+        left:-10%;
+        margin-top:20px;
                         
     }
 
@@ -321,8 +323,8 @@ and (max-width: 900px) {
         position: absolute;   
         width:150px;
         height:150px;
-        top: -2%;
-        left:30%;
+        top: -8%;
+        left:40%;
         
     }
 
@@ -330,8 +332,8 @@ and (max-width: 900px) {
         position: absolute;   
         width:150px;
         height:150px;
-        bottom: -2%;
-        right:30%;
+        bottom: -5%;
+        right:40%;
     }
 
     .services-box {
@@ -339,7 +341,7 @@ and (max-width: 900px) {
         display: grid;
         grid-template-columns: 250px;
         grid-template-rows: 150px;
-        grid-gap: 10px;
+        grid-gap: 15px;
         align-content: center;
         height: 80vh;
         justify-content: center; 
@@ -362,9 +364,12 @@ and (max-width: 900px) {
         font-style: normal;
         font-weight: bold;
         font-size: 22px;
-        /* line-height: 1rem; */
+        line-height: 1.4rem;
         font-family: "Poppins", 'sans-serif';        
         position: relative;
+        margin-top:5px;
+        overflow-wrap: break-word;
+
     }
 
     .services-box p {
@@ -375,6 +380,7 @@ and (max-width: 900px) {
         height: fit-content;
         width: fit-content;
         text-align: justify;
+        /* margin-bottom:50px; */
     }
 
 }

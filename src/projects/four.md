@@ -1,8 +1,8 @@
 ---
 title: "04"
 date: "2020-08-04"
-author: "Chris Ashî"
+author: "Wale of Blanco"
+link: "github/ayphilly/blancoweb"
 ---
-Vue.js (commonly referred to as Vue; pronounced /vjuː/, like view)
-is an open-source progressive JavaScript interfaces.[4] Integration
-into projects that use other.
+An e-commerce site for a Streetwear company in NIgeria,
+P.S. work still on going.

@@ -33,9 +33,10 @@ const IndexPage = () => {
         }`
     )
     
-  return <Layout>
+  return <Layout >
     {/* <SEO title="Home" /> */}
     {/* style={{ maxWidth: `300px`, marginBottom: `1.45rem` , display: `flex`}} */}
+    
     <div className="overlay">
       <h1><a href="/">Home</a></h1> 
       <h1><a href="#lt-about" className="linking">About</a></h1> 

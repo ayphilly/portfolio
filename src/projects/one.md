@@ -1,8 +1,8 @@
 ---
 title: "01"
 date: "2020-08-01"
-author: "Alex Chî"
+author: "Wale of Blanco"
+link: "github/ayphilly/portfolio"
 ---
-Vue.js (commonly referred to as Vue; pronounced /vjuː/, like view)
-is an open-source progressive JavaScript interfaces.[4] Integration
-into projects that use other.
+A porfolio website i just worked on, the portfolio website
+belongs to me and you're currently checking it out.

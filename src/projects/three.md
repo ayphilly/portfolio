@@ -1,8 +1,8 @@
 ---
 title: "03"
 date: "2020-08-03"
-author: "Chuloo Will"
+author: "Wale of Blanco"
+link: "softQuest.netlify.app"
 ---
-Vue.js (commonly referred to as Vue; pronounced /vjuː/, like view)
-is an open-source progressive JavaScript interfaces.[4] Integration
-into projects that use other.
+A website for SoftQuest Nigeria Limited, a single page website for a tech
+company.

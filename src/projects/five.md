@@ -1,8 +1,8 @@
 ---
 title: "05"
 date: "2020-08-05"
-author: "Alex Chî"
+author: "Wale Of Blanco"
+link: "behance.net"
 ---
-Vue.js (commonly referred to as Vue; pronounced /vjuː/, like view)
-is an open-source progressive JavaScript interfaces.[4] Integration
-into projects that use other.
+ A brand identity i created for a Ticketing startup in Estonia, you can explore 
+it by clicking the link below.

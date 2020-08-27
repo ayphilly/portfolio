@@ -18,11 +18,12 @@ main {
     
     max-width: 100%;
     overflow: hidden;
-    height:fit-content;
+    height:max-content;
     padding: 0px;
     margin:0px;
     display:flex;
     flex-direction: column;
+    justify-content:space-between;
     /* background-color: red; */
 }
 

@@ -9,7 +9,7 @@ const Projects = () => {
     const data = useStaticQuery(graphql`
     query ProjectsQuery{
         allMarkdownRemark(
-            sort: {fields: [frontmatter___date], order: DESC},
+            sort: {fields: [frontmatter___date], order: ASC},
             filter : { fileAbsolutePath: {regex: "/src/projects/" }}
         ) {
           totalCount
@@ -21,7 +21,7 @@ const Projects = () => {
                 date
                 author
               }
-              excerpt
+              excerpt(pruneLength: 350)
               timeToRead
             }
           }
@@ -46,7 +46,7 @@ const Projects = () => {
                                 <h1 className="project-header"> { node.frontmatter.title} </h1>
                                 <p className="project-logo"> { node.frontmatter.date} </p>
                             </div>                            
-                            <p className="project-text"> {node.excerpt}</p>
+                            <p className="project-text"> {node.excerpt}</p><br/>
                         </div>
                     } )
                 }
