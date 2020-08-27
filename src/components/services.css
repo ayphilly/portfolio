@@ -219,9 +219,9 @@ and (max-width: 600px) {
         align-items: flex-start;
         justify-content: center;
         position: relative;
-        margin-top: 170px;
+        margin-bottom: 170px;
         align-content: center;
-        margin-bottom: 50px;
+        
         /* background-color: pink; */
     }
 
@@ -339,7 +339,7 @@ and (max-width: 900px) {
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: 100px;
+        margin-bottom: 170px;
         /* margin-top: 50px;
         align-content: center; */
          

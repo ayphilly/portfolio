@@ -168,10 +168,10 @@ and (max-width: 600px) {
         display: flex;
         flex-direction: column;
         position: relative;
-        margin-bottom: 100px;        
+        margin-bottom: 50px;        
         align-items:flex-start;
         justify-content: center;
-                
+        margin-top:100px;       
         /* background-color: pink;  */
     }
     .projects-page h2 {
@@ -327,7 +327,7 @@ and (max-width: 900px) {
         align-items:flex-start;
         justify-content: space-between;
         /* background-color: pink;  */
-        /* margin-bottom: 100px; */
+        margin-top: 50px;
     }
     .projects-page h2 {
         font-style: normal;
