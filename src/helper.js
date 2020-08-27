@@ -3,7 +3,7 @@ import { TimelineMax, Power2 } from "gsap";
 import TypeIt from "typeit";
 import loadable from '@loadable/component'
 const $ = loadable(() => import('jquery'))
-// // const $ = typeof window !== `undefined` ? require("jquery") : null
+const $ = typeof window !== `undefined` ? require("jquery") : null
 
 export const barCont = () => {
     const hamburger = document.querySelector('.hamburger');        
@@ -63,8 +63,9 @@ export const closeLink = () => {
 
 
 export const clicky = () => {
+    var $root = typeof window !== `undefined` ? $('html, body'): null
     if (typeof window !== `undefined`) {
-        var $root = $('html, body');
+        // var $root = $('html, body');
         $('a[href^="#lt-"]').click(function() {
         
             var href = $.attr(this, 'href');
