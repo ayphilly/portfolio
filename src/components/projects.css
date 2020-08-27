@@ -217,6 +217,7 @@ and (max-width: 600px) {
         grid-template-columns: 300px;
         grid-template-rows: 253.09px;
         grid-gap: 50px 50px;
+        align-items:center;
         align-content: center;
         height: 100%;
         justify-content: center;
