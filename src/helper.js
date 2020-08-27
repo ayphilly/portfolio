@@ -1,6 +1,10 @@
 import { TimelineMax, Power2 } from "gsap";
-import $ from "jquery";
+// import $ from "jquery";
 import TypeIt from "typeit";
+const { JSDOM } = require("jsdom");
+const myJSDom = new JSDOM (html);
+const $ = require('jquery')(myJSDom.window);
+
 
 export const barCont = () => {
     const hamburger = document.querySelector('.hamburger');        

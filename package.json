@@ -30,6 +30,7 @@
     "gatsby-transformer-sharp": "^2.5.13",
     "gsap": "^3.4.2",
     "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
