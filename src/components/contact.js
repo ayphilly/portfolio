@@ -70,7 +70,7 @@ const Contact = () => {
 
     return <div className="contact" id="lt-contact" data-aos="fade-up">
          
-        <form onSubmit={handleSubmit} data-netlify="true" >
+        <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" >
             <div className="form-cover">
                 <b> <strong> Contact-Me </strong>  </b>
                 <p className="contact-text">
