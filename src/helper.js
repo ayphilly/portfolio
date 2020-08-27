@@ -1,8 +1,8 @@
 import { TimelineMax, Power2 } from "gsap";
-import $ from "jquery";
+// import $ from "jquery";
 import TypeIt from "typeit";
-// import loadable from '@loadable/component'
-// // const $ = loadable(() => import('jquery'))
+import loadable from '@loadable/component'
+const $ = loadable(() => import('jquery'))
 // // const $ = typeof window !== `undefined` ? require("jquery") : null
 
 export const barCont = () => {
@@ -61,19 +61,22 @@ export const closeLink = () => {
 //     })
 // }
 
-var $root = $('html, body');
+
 export const clicky = () => {
-
-    $('a[href^="#lt-"]').click(function() {
+    if (typeof window !== `undefined`) {
+        var $root = $('html, body');
+        $('a[href^="#lt-"]').click(function() {
         
-        var href = $.attr(this, 'href');
-
-        $root.animate({
-            scrollTop: $(href).offset().top + 100
-        }, 500);
-
-        return false;
-    });
+            var href = $.attr(this, 'href');
+    
+            $root.animate({
+                scrollTop: $(href).offset().top + 100
+            }, 500);
+    
+            return false;
+        });
+    }
+    
 
 }
 
