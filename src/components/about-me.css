@@ -118,11 +118,42 @@
     }
 }
 
+@-webkit-keyframes wave {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(25deg);
+    }
+}
+
+@-moz-keyframes wave {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(25deg);
+    }
+}
+@-o-keyframes wave {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(25deg);
+    }
+}
 .hand:hover {
     animation-duration: 0.3s;
     animation-name: wave;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    -webkit-animation: wave 0.3s infinite; /* Safari 4+ */
+    -moz-animation:    wave 0.3s infinite; /* Fx 5+ */
+    -o-animation:      wave 0.3s infinite;
 }
 
 

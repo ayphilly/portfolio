@@ -18,7 +18,7 @@ main {
     
     max-width: 100%;
     overflow: hidden;
-    height:max-content;
+    height:fit-content;
     padding: 0px;
     margin:0px;
     display:flex;
@@ -45,6 +45,35 @@ footer a {
     color: #000;
 }
 
+@-webkit-keyframes love {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@-moz-keyframes love {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@-o-keyframes love {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
 
 @keyframes love {
     from {
@@ -57,6 +86,7 @@ footer a {
 }
 
 
+
 footer .love {
     display:inline-block;
     width: fit-content;
@@ -64,6 +94,9 @@ footer .love {
 }
 
 .love:hover {
+    -webkit-animation: love 5s infinite; /* Safari 4+ */
+    -moz-animation:    love 5s infinite; /* Fx 5+ */
+    -o-animation:      love 5s infinite;
     animation-duration: 0.5s;
     animation-name: love;
     animation-iteration-count: infinite;

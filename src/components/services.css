@@ -65,14 +65,71 @@
     }
 }
 
+@-webkit-keyframes direct1 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 30px;
+    }
+}
+
+@-moz-keyframes direct1 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 30px;
+    }
+}
+
+@-o-keyframes direct1 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 30px;
+    }
+}
+
 .services-page .img-1:hover {
     animation-duration: 0.3s;
     animation-name: direct1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    -webkit-animation: direct1 0.3s infinite; /* Safari 4+ */
+    -moz-animation:    direct1 0.3s infinite; /* Fx 5+ */
+    -o-animation:      direct1 0.3s infinite;
     
 }
 @keyframes direct2 {
+    from {
+        right: 60px;
+    }
+
+    to {
+        right: 90px;    }
+}
+@-webkit-keyframes direct2 {
+    from {
+        right: 60px;
+    }
+
+    to {
+        right: 90px;    }
+}
+@-moz-keyframes direct2 {
+    from {
+        right: 60px;
+    }
+
+    to {
+        right: 90px;    }
+}
+@-o-keyframes direct2 {
     from {
         right: 60px;
     }
@@ -94,6 +151,10 @@
     animation-name: direct2;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
+    -webkit-animation: direct2 0.3s infinite; /* Safari 4+ */
+    -moz-animation:    direct2 0.3s infinite; /* Fx 5+ */
+    -o-animation:      direct2 0.3s infinite; 
     
 }
 
@@ -164,7 +225,7 @@ and (max-width: 600px) {
         align-items: flex-start;
         justify-content: center;
         position: relative;
-        margin-top: 50px;
+        margin-top: 170px;
         align-content: center;
         margin-bottom: 50px;
         /* background-color: pink; */
@@ -205,20 +266,22 @@ and (max-width: 600px) {
     }
     
     .services-page .img-1 {
-        position: absolute;   
+        /* position: absolute;   
         width:150px;
         height:150px;
         top: -2%;
-        left:30%;
+        left:30%; */
+        display:none;
         
     }
 
     .services-page .img-2 {
-        position: absolute;   
+        /* position: absolute;   
         width:150px;
         height:150px;
         bottom: -2%;
-        right:30%;
+        right:30%; */
+        display:none;
     }
 
     .services-box {
@@ -282,6 +345,7 @@ and (max-width: 900px) {
         align-items: center;
         justify-content: center;
         position: relative;
+        margin-top: 100px;
         /* margin-top: 50px;
         align-content: center; */
          
@@ -326,6 +390,7 @@ and (max-width: 900px) {
         top: -8%;
         left:40%;
         
+        
     }
 
     .services-page .img-2 {
@@ -334,6 +399,7 @@ and (max-width: 900px) {
         height:150px;
         bottom: -5%;
         right:40%;
+        
     }
 
     .services-box {
