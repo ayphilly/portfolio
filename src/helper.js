@@ -17,7 +17,7 @@ export const barCont = () => {
     const lineTwo = hamburger.querySelector('.l-two');
     const lineThree = hamburger.querySelector('.l-three');
     const overlay = document.querySelector('.overlay');
-    const tlm = new gsap({paused:true, reversed:true});
+    const tlm = new gsap.timeline({paused:true, reversed:true});
 
     tlm
         .to(lineTwo,.125, {scaleX:0, ease: Power2.easeInOut})
