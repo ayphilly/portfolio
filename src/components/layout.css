@@ -18,7 +18,7 @@ main {
     
     max-width: 100%;
     overflow: hidden;
-    height:fit-content;
+    height:500vh;
     padding: 0px;
     margin:0px;
     display:flex;
