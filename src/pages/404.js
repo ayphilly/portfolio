@@ -1,10 +1,10 @@
 import React, {useEffect} from "react"
 import Layout from "../components/layout"
-// import {typing} from "../helper";
+import {typing} from "../helper";
 import Particles from 'react-particles-js';
 import "./404.css";
-import loadable from '@loadable/component'
-const {typing} = loadable(() => import('../helper'))
+// import loadable from '@loadable/component'
+// const {typing} = loadable(() => import('../helper'))
 const NotFoundPage = () => {
 
   useEffect (()=> {

@@ -1,9 +1,9 @@
 import { TimelineMax, Power2 } from "gsap";
 import $ from "jquery";
 import TypeIt from "typeit";
-import loadable from '@loadable/component'
-// const $ = loadable(() => import('jquery'))
-// const $ = typeof window !== `undefined` ? require("jquery") : null
+// import loadable from '@loadable/component'
+// // const $ = loadable(() => import('jquery'))
+// // const $ = typeof window !== `undefined` ? require("jquery") : null
 
 export const barCont = () => {
     const hamburger = document.querySelector('.hamburger');        

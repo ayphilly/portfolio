@@ -10,9 +10,8 @@ import "./index.css";
 import AboutPage from "../components/about-me";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import {barCont} from "../helper";
-import loadable from '@loadable/component'
-const {barCont} = loadable(() => import('../helper'))
+import {barCont} from "../helper";
+
 const IndexPage = () => {
 
   useEffect(() => {
