@@ -177,12 +177,7 @@ and (max-width: 600px) {
         position: relative;
         
     }
-    .about img{        
-        width:40%;
-        flex:1;
-              
-    }
-    
+  
     .about-word h1 {
         font-style: normal;
         font-weight: bold;
