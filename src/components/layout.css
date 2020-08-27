@@ -97,10 +97,7 @@ footer .love {
     -webkit-animation: love 5s infinite; /* Safari 4+ */
     -moz-animation:    love 5s infinite; /* Fx 5+ */
     -o-animation:      love 5s infinite;
-    animation-duration: 0.5s;
-    animation-name: love;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation:         love 0.3s infinite alternate;
 }
 .sc-icons {
     width:15%;

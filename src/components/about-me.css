@@ -147,10 +147,8 @@
     }
 }
 .hand:hover {
-    animation-duration: 0.3s;
-    animation-name: wave;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    
+    animation:         wave 0.3s infinite alternate;
     -webkit-animation: wave 0.3s infinite; /* Safari 4+ */
     -moz-animation:    wave 0.3s infinite; /* Fx 5+ */
     -o-animation:      wave 0.3s infinite;

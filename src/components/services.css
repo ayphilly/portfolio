@@ -96,10 +96,7 @@
 }
 
 .services-page .img-1:hover {
-    animation-duration: 0.3s;
-    animation-name: direct1;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation:         direct1 0.3s infinite alternate;
     -webkit-animation: direct1 0.3s infinite; /* Safari 4+ */
     -moz-animation:    direct1 0.3s infinite; /* Fx 5+ */
     -o-animation:      direct1 0.3s infinite;
@@ -147,10 +144,7 @@
     
 }
 .services-page .img-2:hover {
-    animation-duration: 0.3s;
-    animation-name: direct2;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation:         direct2 0.3s infinite alternate;
 
     -webkit-animation: direct2 0.3s infinite; /* Safari 4+ */
     -moz-animation:    direct2 0.3s infinite; /* Fx 5+ */
