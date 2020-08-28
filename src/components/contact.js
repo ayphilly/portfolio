@@ -69,11 +69,7 @@ const Contact = () => {
                 })
                 .then (()=>setMail("") )
                 .then(()=> setError(""))
-                .catch(error => console.log(error));
-            
-            
-            
-            
+                .catch(error => console.log(error));  
         }        
         evt.preventDefault();
     }
