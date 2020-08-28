@@ -99,6 +99,9 @@ form input[type="submit"] {
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 form input[type="submit"]:hover {
@@ -110,9 +113,12 @@ form input[type="email"] {
     height: 40px;
     background-color: transparent;
     border: 2px solid #000;
-    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    
     padding:5px;
 }
+
 .popup-box {
     position: fixed;
     /* background: #00000050; */
@@ -183,10 +189,15 @@ form input[type="email"] {
 
 @media screen and (min-width: 300px) 
 and (max-width: 600px) {
-    .contact {       
+    .contact {     
+        display:flex;
+        flex-direction: column;  
         margin-top:50px;
-        margin-bottom:0px;
-        
+        margin-bottom:0px;        
+    }
+    .contact .error {
+        width: fit-content;
+        height:auto;
     }
     .form-cover {
         display:flex;
@@ -218,8 +229,8 @@ and (max-width: 600px) {
         display:flex;    
         align-items: center;
         flex-direction: column;
-        justify-content: space-between;
-        width:fit-content;
+        /* justify-content: space-between; */
+        width:100%;
     }
     form input[type="submit"] {
         width:100px;
@@ -235,6 +246,12 @@ and (max-width: 600px) {
         transition: all 0.5s ease-in;
         -webkit-transition: all 0.5s ease-in;
         margin-top:30px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    input[type="email"] :focus {
+        background-color: transparent;
     }
     
     form input[type="submit"]:hover {
@@ -245,9 +262,11 @@ and (max-width: 600px) {
         width: 250px;
         height: 40px;
         background-color: transparent;
-        border: 2px solid #000;
-        
+        border: 2px solid #000;        
         padding:5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
 
     .popup-box {
@@ -361,7 +380,10 @@ and (max-width: 900px) {
         -webkit-transition: all 0.5s ease-in;
         -moz-transition: all 0.5s ease-in;
         -o-transition: all 0.5s ease-in;
-
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        z-index:900;
     }
     
     form input[type="submit"]:hover {
@@ -373,7 +395,9 @@ and (max-width: 900px) {
         height: 40px;
         background-color: transparent;
         border: 2px solid #000;
-        
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;        
         padding:5px;
     }
     .popup-box {
@@ -506,6 +530,9 @@ and (max-width: 1024px) {
         border:none;
         transition: all 0.5s ease-in;
         -webkit-transition: all 0.5s ease-in;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
     
     form input[type="submit"]:hover {
@@ -517,7 +544,9 @@ and (max-width: 1024px) {
         height: 40px;
         background-color: transparent;
         border: 2px solid #000;
-        
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
         padding:5px;
     }
     .popup-box {

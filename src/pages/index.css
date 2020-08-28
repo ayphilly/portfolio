@@ -69,9 +69,6 @@
     width: fit-content;    
     transition: all 0.3s ease;
 }
-.hand:hover {
-    cursor: pointer;
-}
 
 @keyframes wave {
     from {
@@ -118,11 +115,11 @@
 
 .hand:hover {
     
-
-    -webkit-animation: wave .5s infinite; /* Safari 4+ */
+    cursor: pointer;
+    -webkit-animation: wave .3s infinite; /* Safari 4+ */
     -moz-animation:    wave .3s infinite; /* Fx 5+ */
-    -o-animation:      wave .5s infinite; /* Opera 12+ */
-    animation:         wave .5s infinite alternate;
+    -o-animation:      wave .3s infinite; /* Opera 12+ */
+    animation:         wave .3s infinite alternate;
 }
 
 
@@ -141,7 +138,7 @@ and (max-width: 600px) {
         justify-content: center;
         opacity:0;
         z-index:700;
-        position: absolute;
+        position: fixed;
         text-align: center;
         top:10%;
         /* margin-bottom:150px; */

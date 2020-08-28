@@ -39,14 +39,14 @@ const Contact = () => {
         
 
         if (!value) {
-           return setError( "Please the textfield cannot be left empty" );
+           return setError( "sorry, textfield cannot be empty" );
 
         }
 
         var err = emailIsValid(e.target.value);
 
         if (err === false) {
-           return setError( "Please enter a valid email address, thank you." );
+           return setError( "sorry, enter a valid email address, thank you." );
         }
         
 
