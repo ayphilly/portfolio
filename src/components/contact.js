@@ -64,11 +64,15 @@ const Contact = () => {
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: encode({ "form-name": "contact", email })
                 })
-                .then(() => console.log("Success!"))
+                .then(() => {
+                    setIsOpen(!isOpen);
+                })
+                .then (()=>setMail("") )
+                .then(()=> setError(""))
                 .catch(error => console.log(error));
-            setIsOpen(!isOpen);
-            setMail("");
-            setError("");
+            
+            
+            
             
         }        
         evt.preventDefault();
