@@ -167,8 +167,8 @@ and (max-width: 600px) {
         /* height: 50vh; */
         display: flex;
         flex-direction: column;
-        align-items: center; 
-        justify-content: center; 
+        align-items: center;         
+        justify-content: center;
        
     }
 
@@ -178,11 +178,11 @@ and (max-width: 600px) {
         position: relative;
         
     }
-    .about img{        
+    /* .about img{        
         width:100%;
         flex:1;
                       
-    }
+    } */
     
     .about-word h1 {
         font-style: normal;
