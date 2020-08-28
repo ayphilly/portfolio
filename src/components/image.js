@@ -10,7 +10,7 @@ const Image = ({ src }) => {
         graphql` query {
             placeholderImage: file(relativePath: {eq: "images/wale2.png"}){
                 childImageSharp {
-                    fluid(fit: COVER, maxWidth: 600, pngQuality: 10){
+                    fluid(fit: COVER, maxWidth: 800, pngQuality: 10){
                         ...GatsbyImageSharpFluid
                     }
                 }

@@ -180,6 +180,7 @@ and (max-width: 600px) {
     }
     .about img{        
         width:30%;
+        flex:1;
                       
     }
     
