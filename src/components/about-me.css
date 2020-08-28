@@ -259,11 +259,12 @@ and (max-width: 900px) {
     
     .about {
         margin-top:100px;
-        max-width: 100%;
+        width: 100%;
         /* height: 50vh; */
         display: flex;
         flex-direction: column;
-        align-items: center;  
+        align-items: center;         
+        justify-content: center;  
     }
 
     .about-word {
