@@ -18,7 +18,7 @@ main {
     
     max-width: 100%;
     overflow: hidden;
-    height:500vh;
+    height:fit-content;
     padding: 0px;
     margin:0px;
     display:flex;
@@ -118,7 +118,7 @@ and (max-width: 600px) {
     main {
         
         width: 100%;
-        height:fit-content;
+        max-height:500vh;
         
     }
 
