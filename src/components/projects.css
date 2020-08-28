@@ -164,7 +164,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        height:100vh;
+        height:fit-content;
         display: flex;
         flex-direction: column;        
         /* margin-bottom: 50px;         */
@@ -172,6 +172,7 @@ and (max-width: 600px) {
         justify-content: center;
         /* margin-top:100px;        */
         background-color: pink; 
+        position: relative;
     }
     .projects-page h2 {
         font-style: normal;
@@ -220,7 +221,7 @@ and (max-width: 600px) {
         align-content: center;
         height: 100%;
         justify-content: center;
-        margin-left:-15px; 
+        margin-left:-10px; 
                     
         
     }
@@ -232,6 +233,7 @@ and (max-width: 600px) {
         background-color:#000;
         color:#fff;
         transition: all 0.5s ease-in;
+        position: relative;
     }
 
     .project:hover {
