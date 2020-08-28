@@ -178,9 +178,8 @@ and (max-width: 600px) {
         
     }
     .about img{        
-        width:20%;
-        flex:1;
-              
+        width:35%;
+                      
     }
     
     .about-word h1 {
