@@ -163,7 +163,7 @@ and (max-width: 600px) {
     
     .about {
         margin-top:100px;
-        width: 110%;
+        width: 100%;
         /* height: 50vh; */
         display: flex;
         flex-direction: column;
@@ -183,11 +183,11 @@ and (max-width: 600px) {
         flex:1;
                       
     } */
-    .profile-pic2 {
+    /* .profile-pic2 {
         width:30%;
         flex:1;
         background-color: red;
-    }
+    } */
     
     .about-word h1 {
         font-style: normal;
