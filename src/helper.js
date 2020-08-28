@@ -39,6 +39,7 @@ export const barCont = () => {
         });
     }
     hamburger.addEventListener('click', _=>{
+        overlay.style.zIndex= -1;
         tlm.reversed()? tlm.play() : tlm.reverse();
     })
 }
