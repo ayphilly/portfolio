@@ -172,7 +172,7 @@ and (max-width: 600px) {
         align-items:flex-start;
         justify-content: center;
         /* margin-top:100px;        */
-        /* background-color: pink;  */
+        background-color: pink; 
     }
     .projects-page h2 {
         font-style: normal;
@@ -221,7 +221,7 @@ and (max-width: 600px) {
         align-content: center;
         height: 100%;
         justify-content: center;
-        margin-left:-20px; 
+        margin-left:-15px; 
                     
         
     }
