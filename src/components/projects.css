@@ -225,7 +225,7 @@ and (max-width: 600px) {
         
     }
     .project {
-        position:relative;
+        
         display: flex;
         flex-direction: column;
         align-items:center;
