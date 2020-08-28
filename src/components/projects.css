@@ -183,7 +183,7 @@ and (max-width: 600px) {
         position: relative;
         /* margin-left:-20px; */
         margin-left:-20px; 
-        margin-bottom: 60px;
+        /* margin-bottom: 60px; */
 
         
     }
@@ -223,7 +223,7 @@ and (max-width: 600px) {
         justify-content: center;
         margin-left:-10px; 
         
-        margin-top: -200px;
+        margin-top: -240px;
         position: relative;
                     
         
