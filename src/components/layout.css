@@ -94,9 +94,9 @@ footer .love {
 }
 
 .love:hover {
-    -webkit-animation: love 5s infinite; /* Safari 4+ */
-    -moz-animation:    love 5s infinite; /* Fx 5+ */
-    -o-animation:      love 5s infinite;
+    -webkit-animation: love .5s infinite; /* Safari 4+ */
+    -moz-animation:    love .5s infinite; /* Fx 5+ */
+    -o-animation:      love .5s infinite;
     animation:         love 0.3s infinite alternate;
 }
 .sc-icons {

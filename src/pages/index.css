@@ -119,10 +119,10 @@
 .hand:hover {
     
 
-    -webkit-animation: wave .3s infinite alternate; /* Safari 4+ */
-    -moz-animation:    wave .3s infinite alternate; /* Fx 5+ */
-    -o-animation:      wave .3s infinite alternate; /* Opera 12+ */
-    animation:         wave .3s infinite alternate;
+    -webkit-animation: wave .5s infinite; /* Safari 4+ */
+    -moz-animation:    wave .5s infinite; /* Fx 5+ */
+    -o-animation:      wave .5s infinite; /* Opera 12+ */
+    animation:         wave .5s infinite alternate;
 }
 
 
