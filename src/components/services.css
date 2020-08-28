@@ -232,7 +232,7 @@ and (max-width: 600px) {
         line-height: 0.6rem;
         font-family: "Poppins", 'sans-serif';
         position: relative;
-        margin-left:0px;
+        margin-left:-10px;
         /* margin-right:100px;  */
         margin-top:100px;
        
