@@ -221,14 +221,14 @@ and (max-width: 600px) {
         position: relative;
         /* margin-bottom: 150px; */
         align-content: center;
-        margin-top:70px;
+        margin-top:50px;
         /* background-color: pink; */
     }
 
     .services-page h2 {
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 23px;
         line-height: 0.6rem;
         font-family: "Poppins", 'sans-serif';
         position: relative;
@@ -281,13 +281,13 @@ and (max-width: 600px) {
     .services-box {
         width: 100%;
         display: grid;
-        grid-template-columns: 250px;
-        grid-template-rows: 150px;
+        grid-template-columns: 300px;
+        grid-template-rows: 253.09px;
         grid-gap: 10px;
         align-content: center;
         height: 100vh;
         justify-content: center; 
-        margin-top: -20px;
+        margin-top: -10px;
         
         
     }

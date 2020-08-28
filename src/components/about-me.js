@@ -26,7 +26,10 @@ const AboutPage = () => {
   return (
     
         <div className="about" id ="lt-about" data-aos="fade-up">
-            <Image className="profile-pic2" src={dat.placeholderImage.childImageSharp.fluid} />  
+            <div className="profile-pic2" style={{ width: '100%' }}>
+                <Image  src={dat.placeholderImage.childImageSharp.fluid} /> 
+            </div>
+             
             <div className="about-word">
                 <h1>About me {`>`} </h1>
                 <p >Hi there, <span className="hand" role="img" >  &#128075;&#127998;</span></p>      
