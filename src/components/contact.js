@@ -59,7 +59,13 @@ const Contact = () => {
 
         //if no error
         if (email) {
-                       
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({ "form-name": "contact", email })
+                })
+                .then(() => console.log("Success!"))
+                .catch(error => console.log(error));
             setIsOpen(!isOpen);
             setMail("");
             setError("");
@@ -70,7 +76,7 @@ const Contact = () => {
 
     return <div className="contact" id="lt-contact" data-aos="fade-up">
          
-        <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" >
+        <form onSubmit={handleSubmit}>
             <div className="form-cover">
                 <b> <strong> Contact-Me </strong>  </b>
                 <p className="contact-text">

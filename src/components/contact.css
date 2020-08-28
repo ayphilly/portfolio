@@ -192,6 +192,7 @@ and (max-width: 600px) {
     .contact {     
         display:flex;
         flex-direction: column;  
+        width:80%;
         margin-top:50px;
         margin-bottom:0px;        
     }
@@ -274,8 +275,13 @@ and (max-width: 600px) {
         /* background: #00000050; */
         width: 80%;
         height: 100vh;
-        top: 0;
+        top: 25px;
         left: 0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        align-content:center;        
+
     }
        
     .box {
