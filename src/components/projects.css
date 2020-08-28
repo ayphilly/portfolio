@@ -171,7 +171,7 @@ and (max-width: 600px) {
         align-items:flex-start;
         justify-content: center;
         /* margin-top:100px;        */
-        background-color: pink; 
+        
         position: relative;
     }
     .projects-page h2 {
@@ -221,7 +221,7 @@ and (max-width: 600px) {
         align-content: center;        
         justify-content: center;
         margin-left:-10px; 
-        background-color: purple;
+        
         margin-top: -200px;
         position: relative;
                     
