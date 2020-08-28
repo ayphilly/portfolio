@@ -26,7 +26,7 @@ const AboutPage = () => {
   return (
     
         <div className="about" id ="lt-about" data-aos="fade-up">
-            <div className="profile-pic2" style={{ width: '100%' }}>
+            <div className="profile-pic2" style={{ width: '50%' }}>
                 <Image  src={dat.placeholderImage.childImageSharp.fluid} /> 
             </div>
              
