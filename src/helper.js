@@ -34,7 +34,7 @@ export const barCont = () => {
         linking[i].addEventListener("click", function () {
             const overlay = document.querySelector('.overlay');
             overlay.style.opacity=0;
-            overlay.style.zIndex= 100;
+            overlay.style.zIndex= -1;
             tlm.reversed()? tlm.play() : tlm.reverse();
         });
     }
