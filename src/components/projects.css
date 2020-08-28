@@ -164,7 +164,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        height:fit-content;
+        height:250vh;
         display: flex;
         flex-direction: column;        
         /* margin-bottom: 50px;         */
@@ -218,10 +218,12 @@ and (max-width: 600px) {
         grid-template-rows: 253.09px;
         grid-gap: 50px 50px;
         align-items:center;
-        align-content: center;
-        height: 100%;
+        align-content: center;        
         justify-content: center;
         margin-left:-10px; 
+        background-color: purple;
+        margin-top: -200px;
+        position: relative;
                     
         
     }
