@@ -184,8 +184,8 @@ and (max-width: 600px) {
         /* margin-left:-20px; */
         margin-left:-20px; 
         /* margin-bottom: 60px; */
-        margin-top:50px;
-        margin-bottom: 50px;
+        margin-top:-80px;
+        /* margin-bottom: 50px; */
 
         
     }

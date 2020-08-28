@@ -169,7 +169,7 @@ and (max-width: 600px) {
         flex-direction: column;
         align-items: center; 
         justify-content: center; 
-        padding:50px;
+       
     }
 
     .about-word {
@@ -179,7 +179,7 @@ and (max-width: 600px) {
         
     }
     .about img{        
-        width:30%;
+        width:35%;
         flex:1;
                       
     }
