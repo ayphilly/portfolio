@@ -169,7 +169,7 @@ and (max-width: 600px) {
         flex-direction: column;        
         /* margin-bottom: 50px;         */
         align-items:flex-start;
-        justify-content: center;
+        justify-content: space-between;
         /* margin-top:100px;        */
         
         position: relative;
@@ -213,6 +213,7 @@ and (max-width: 600px) {
 
     .projects-box {
         width: fit-content;
+        height:100%;
         display: grid;
         grid-template-columns: 300px;
         grid-template-rows: 253.09px;

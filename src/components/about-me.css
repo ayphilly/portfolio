@@ -178,7 +178,7 @@ and (max-width: 600px) {
         
     }
     .about img{        
-        width:28%;
+        width:20%;
         flex:1;
               
     }
