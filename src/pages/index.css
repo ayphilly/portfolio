@@ -120,7 +120,7 @@
     
 
     -webkit-animation: wave .5s infinite; /* Safari 4+ */
-    -moz-animation:    wave .5s infinite; /* Fx 5+ */
+    -moz-animation:    wave .3s infinite; /* Fx 5+ */
     -o-animation:      wave .5s infinite; /* Opera 12+ */
     animation:         wave .5s infinite alternate;
 }
