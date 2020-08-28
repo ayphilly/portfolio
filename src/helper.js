@@ -26,8 +26,8 @@ export const barCont = () => {
         .to(hamburger,.25, {rotation:360, ease:Power2.easeInOut} )
         .to(lineOne, .25, {rotation:45, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross")
         .to(lineThree, .25, {rotation:-45, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross")
-        .fromTo(overlay, .5, {opacity:0, ease: Power2.easeInOut}, {opacity:1, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross");
-    overlay.style.display="block";
+        .fromTo(overlay, .5, {opacity:0, zIndex:-1, ease: Power2.easeInOut}, {opacity:1, zIndex: 700, transformOrigin: "50% 50%", ease: Power2.easeInOut}, "cross");
+    overlay.style.position="block";
     var linking = document.getElementsByClassName("linking");
 
     for (var i =0; i< linking.length; i++) {
@@ -38,9 +38,8 @@ export const barCont = () => {
             tlm.reversed()? tlm.play() : tlm.reverse();
         });
     }
-    hamburger.addEventListener('click', _=>{
-        overlay.style.zIndex= -1;
-        tlm.reversed()? tlm.play() : tlm.reverse();
+    hamburger.addEventListener('click', _=>{        
+        tlm.reversed()? tlm.play() : tlm.reverse();       
     })
 }
 

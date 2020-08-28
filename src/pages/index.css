@@ -137,7 +137,7 @@ and (max-width: 600px) {
         align-items: center;
         justify-content: center;
         opacity:0;
-        z-index:700;
+        /* z-index:700; */
         position: fixed;
         text-align: center;
         top:10%;

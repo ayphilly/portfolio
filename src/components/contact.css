@@ -272,7 +272,7 @@ and (max-width: 600px) {
     .popup-box {
         position: fixed;
         /* background: #00000050; */
-        width: 100%;
+        width: 70%;
         height: 100vh;
         top: 0;
         left: 0;
@@ -287,12 +287,12 @@ and (max-width: 600px) {
         margin-top: calc(100vh - 100vh - 20px);
         background: #fff;
         border-radius: 4px;
-        padding: 20px;
+        padding: 15px;
         /* border: 1px solid #999; */
         overflow: auto;
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
         font-family: "Poppins", 'sans-serif';
         color:#000;
@@ -322,6 +322,14 @@ and (max-width: 600px) {
         transition: all 0.5s ease-in;
         -webkit-transition: all 0.5s ease-in;
     }
+
+    .thank-you {    
+    
+        width:120px;
+        height:120px;
+        
+    }
+    
     
     
 
