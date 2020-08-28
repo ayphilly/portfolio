@@ -232,7 +232,7 @@ and (max-width: 600px) {
         line-height: 0.6rem;
         font-family: "Poppins", 'sans-serif';
         position: relative;
-        margin-left:10px;
+        margin-left:0px;
         /* margin-right:100px;  */
         margin-top:100px;
        
@@ -282,7 +282,7 @@ and (max-width: 600px) {
         width: 100%;
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: 253.09px;
+        grid-template-rows: 150px;
         grid-gap: 10px;
         align-content: center;
         height: 100vh;
