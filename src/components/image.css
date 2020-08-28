@@ -8,8 +8,8 @@
 and (max-width: 600px) {
 
     .profile-image {
-        width: 90%;
-        height: 90%;
+        width: 120%;
+        height: 120%;
         display: block;
         
     }    
