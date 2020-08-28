@@ -272,7 +272,7 @@ and (max-width: 600px) {
     .popup-box {
         position: fixed;
         /* background: #00000050; */
-        width: 70%;
+        width: 80%;
         height: 100vh;
         top: 0;
         left: 0;
@@ -307,7 +307,7 @@ and (max-width: 600px) {
         content: 'x';
         cursor: pointer;
         position: fixed;
-        right: calc(32% - 100px);
+        right: calc(32% - 20px);
         top: calc(100vh - 100vh - 22px);
         background: #000;
         width: 30px;

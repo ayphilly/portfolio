@@ -132,7 +132,7 @@ and (max-width: 600px) {
         display:flex;
         flex-direction: column;
         width:90%;
-        height: auto;
+        height: 100vh;
         background-color:#fff;        
         align-items: center;
         justify-content: center;
