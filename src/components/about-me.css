@@ -188,7 +188,7 @@ and (max-width: 600px) {
                       
     } */
     .profile-pic2 {
-        width:80%;        
+        width:100%;        
         display:flex;
 
     }
