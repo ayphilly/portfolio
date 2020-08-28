@@ -164,10 +164,9 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        height:auto;
+        height:100vh;
         display: flex;
-        flex-direction: column;
-        position: relative;
+        flex-direction: column;        
         /* margin-bottom: 50px;         */
         align-items:flex-start;
         justify-content: center;
