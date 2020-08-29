@@ -63,6 +63,7 @@ const Contact = () => {
 
     const handleSubmit = (evt) => {
 
+        evt.preventDefault(); 
         //if no error
         if (email) {
             fetch("/", {
@@ -79,19 +80,27 @@ const Contact = () => {
             
         }
         
-        evt.preventDefault(); 
+        
         
     }
 
     return <div className="contact" id="lt-contact" data-aos="fade-up">
          
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} name="contact"  method="post" action="/" data-netlify="true"  data-netlify-honeypot="bot-field">
             <div className="form-cover">
                 <b> <strong> Contact-Me </strong>  </b>
                 <p className="contact-text">
                     Shoot me a mail at <strong>@aphilemon.aa@gmail.com</strong> if you have a job for me,
                     i'm currently available and willing to collaborate, you can also send 
                     me your email address so i can contact you.
+                </p>
+
+                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p hidden>
+                    <label>
+                        Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+                    </label>
                 </p>
 
                 <label>Email:</label>
