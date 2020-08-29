@@ -189,6 +189,7 @@ form input[type="email"] {
 
 @media screen and (min-width: 300px) 
 and (max-width: 600px) {
+    input[type="email"]{ font-size: 16px; }
     .contact {     
         display:flex;
         flex-direction: column;  
