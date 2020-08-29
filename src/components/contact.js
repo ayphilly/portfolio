@@ -23,6 +23,11 @@ const Contact = () => {
     const [ email, setMail] = useState(""); 
     const [fieldError, setError] = useState("");
     const [isOpen, setIsOpen] = useState(false);
+    const [state, setState] = useState({})
+
+    const handleChange = (e) => {
+        setState({ ...state, [e.target.name]: e.target.value })
+    }
 
     useEffect(() => {
         AOS.init();
