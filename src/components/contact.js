@@ -12,6 +12,12 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 library.add(  
     faCheckCircle
 );
+
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+}
 const Contact = () => {
 
     const [ email, setMail] = useState(""); 
@@ -63,15 +69,18 @@ const Contact = () => {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: encode({ "form-name": "contact", email })
-                })
-                .then(() => {
-                    setIsOpen(!isOpen);
-                })
-                .then (()=>setMail("") )
-                .then(()=> setError(""))
-                .catch(error => console.log(error));  
-        }        
-        evt.preventDefault();
+            })
+            .then(() => {
+                setIsOpen(!isOpen);
+            })
+            .then (()=>setMail("") )
+            .then(()=> setError(""))
+            .catch(error => console.log(error)); 
+            
+        }
+        
+        evt.preventDefault(); 
+        
     }
 
     return <div className="contact" id="lt-contact" data-aos="fade-up">
