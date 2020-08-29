@@ -315,7 +315,7 @@ and (max-width: 600px) {
         content: 'x';
         cursor: pointer;
         position: fixed;
-        right: calc(32% - 90px);
+        right: calc(32% - 100px);
         top: calc(100vh - 100vh - 22px);
         background: #000;
         width: 30px;
