@@ -300,7 +300,7 @@ and (max-width: 600px) {
         overflow: auto;
         font-style: normal;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
         font-family: "Poppins", 'sans-serif';
         color:#000;
@@ -315,7 +315,7 @@ and (max-width: 600px) {
         content: 'x';
         cursor: pointer;
         position: fixed;
-        right: calc(32% - 100px);
+        right: calc(32% - 110px);
         top: calc(100vh - 100vh - 22px);
         background: #000;
         width: 30px;
