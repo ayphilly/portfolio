@@ -8,21 +8,20 @@ const  Explore = props => {
 }
 
 const exploreLink = styled.a`
-    color: white;
-    background-color: black;
-    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
     font-weight:bold;
     transition: all 0.5s ease-in;
     width: 30%
     height:40px;
 
     &:hover {
-        color: black;
-        background-color: white;
+        color: #000;
+        background-color: #fff;
         border: 2px solid black;
-        font-size: 14px;
+        font-size: 15px;
         font-weight:bold;
-
     }
 
 `
