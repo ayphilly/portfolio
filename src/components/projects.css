@@ -74,7 +74,7 @@
     position:relative;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items:flex-start;
     background-color:#000;
     color:#fff;
     transition: all 0.5s ease-in;
@@ -219,12 +219,12 @@ and (max-width: 600px) {
         height:90%;
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: 253.09px;
+        grid-template-rows: 280px;
         grid-gap: 50px 50px;
         align-items:center;
         align-content: center;        
         justify-content: center;
-        margin-left:-10px; 
+        margin-left:-10px;
         
         margin-top: -240px;
         position: relative;
@@ -235,7 +235,7 @@ and (max-width: 600px) {
         
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items:flex-start;
         background-color:#000;
         color:#fff;
         transition: all 0.5s ease-in;
