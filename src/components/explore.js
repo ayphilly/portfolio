@@ -4,10 +4,10 @@ import styled from 'styled-components'
 
 const  Explore = props => {
 
-    return <exploreLink href={props.link} target="_blank"> Explore </exploreLink>
+    return <ExploreLink href={props.link} target="_blank"> Explore </ExploreLink>
 }
 
-const exploreLink = styled.a`
+const ExploreLink = styled.a`
     color: red;
     background-color: purple;
     font-size: 15px;
