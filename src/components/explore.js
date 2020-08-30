@@ -17,8 +17,7 @@ const ExploreLink = styled.a`
     font-family:Poppins;
     text-decoration: none;
     text-align:center;
-    padding:10px;
-    margin-bottom:10px;
+    padding:10px;    
 
     &:hover {
         color: #000;

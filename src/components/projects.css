@@ -150,6 +150,7 @@
     flex-direction: column;
     width: 90%;
     align-items: flex-end;
+    justify-content: space-around;
     
 }
 .project-text p {
@@ -332,7 +333,7 @@ and (max-width: 600px) {
         flex-direction: column;
         width: 90%;
         align-items: flex-end;
-        
+        justify-content: space-around;
     }
     .project-text p {
         font-style: normal;
