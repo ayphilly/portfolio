@@ -160,7 +160,7 @@
     text-align: justify;   
     font-family: "Poppins", 'sans-serif';
     height: fit-content;
-    width: 90%;
+    width: 100%;
     
 }
 
@@ -245,6 +245,7 @@ and (max-width: 600px) {
         display: flex;
         flex-direction: column;
         align-items:flex-start;
+        align-content:center;
         background-color:#000;
         color:#fff;
         transition: all 0.5s ease-in;
@@ -284,9 +285,9 @@ and (max-width: 600px) {
     .project-top {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
-        width:100%;
+        width:90%;
         /* background-color:red; */
     }
     .project-top h1 {
@@ -329,13 +330,13 @@ and (max-width: 600px) {
     .project-text {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         align-items: flex-end;
         
     }
     .project-text p {
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 10px;
         line-height: 25px;
         text-align: justify;   

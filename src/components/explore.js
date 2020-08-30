@@ -18,6 +18,7 @@ const ExploreLink = styled.a`
     text-decoration: none;
     text-align:center;
     padding:10px;
+    margin-bottom:10px;
 
     &:hover {
         color: #000;
