@@ -13,13 +13,12 @@ const ExploreLink = styled.a`
     font-size: 15px;
     font-weight:bold;
     transition: all 0.5s ease-in;
-    width: 100px;
-    height:30px;
+    width: 80px;    
     font-family:Poppins;
     text-decoration: none;
     text-align:center;
     padding:10px;
-    
+
     &:hover {
         color: #000;
         background-color: #fff;

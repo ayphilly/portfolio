@@ -60,7 +60,7 @@
     width: fit-content;
     display: grid;
     grid-template-columns: 371.86px 371.86px 371.86px;
-    grid-template-rows: 293.09px 293.09px;
+    grid-template-rows: 310px 310px;
     grid-gap: 50px 40px;    
     height: 150vh;
     justify-content: center; 
