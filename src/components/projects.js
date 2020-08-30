@@ -49,7 +49,7 @@ const Projects = () => {
                                 <p className="project-logo"> { node.frontmatter.date} </p>
                             </div>                            
                             <p className="project-text"> {node.excerpt}</p><br/>
-                            <Explore link = {node.frontmatter.link} />
+                            <Explore link = {node.frontmatter.link} className="project-explore" />
                         </div>
                     } )
                 }

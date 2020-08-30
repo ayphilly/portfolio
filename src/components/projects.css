@@ -64,7 +64,7 @@
     grid-gap: 50px 40px;    
     height: 150vh;
     justify-content: center; 
-    align-items: flex-start;
+    align-items: center;
     
    
     /* background-color: #f89827;       */
@@ -74,7 +74,8 @@
     position:relative;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
+    align-content:center;
     background-color:#000;
     color:#fff;
     transition: all 0.5s ease-in;
@@ -88,6 +89,9 @@
 
 }
 
+.project-explore {
+    width:90%;
+}
 .project::after {
     position: absolute;
     top:-15px;
@@ -116,7 +120,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width:80%;
+    width:90%;
     /* background-color:red; */
 }
 .project-top h1 {
@@ -152,7 +156,7 @@
     text-align: justify;   
     font-family: "Poppins", 'sans-serif';
     height: fit-content;
-    width: 80%;
+    width: 90%;
     
 }
 
