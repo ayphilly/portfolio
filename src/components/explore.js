@@ -7,7 +7,7 @@ const  Explore = props => {
     return <exploreLink href={props.link} target="_blank"> Explore </exploreLink>
 }
 
-const exploreLink = styled(Link)`
+const exploreLink = styled.a`
     color: white;
     background-color: black;
     font-size: 14px;
