@@ -66,7 +66,7 @@
     justify-content: center; 
     align-items: flex-start;
     
-    /* padding:20px;  */
+   
     /* background-color: #f89827;       */
      
 }
@@ -78,6 +78,7 @@
     background-color:#000;
     color:#fff;
     transition: all 0.5s ease-in;
+    padding:10px; 
 }
 
 .project:hover {
