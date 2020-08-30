@@ -207,8 +207,125 @@
 
 
 /* Responsiveness mobile */
-
 @media screen and (min-width: 300px) 
+and (max-width: 400px) {
+    
+    .services-page {
+        width: 100%;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        /* margin-bottom: 150px; */
+        align-content: center;
+        margin-top:50px;
+        /* background-color: pink; */
+    }
+
+    .services-page h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 0.6rem;
+        font-family: "Poppins", 'sans-serif';
+        position: relative;
+        margin-left:-20px;
+        /* margin-right:100px;  */
+        margin-top:100px;
+       
+    }
+
+    .services-page h2:after {
+        
+        left: 40px;
+        position: absolute;
+        top: 0%;
+        left:.5%;
+        width:200%;
+        height:fit-content;
+        content: "Services >";    
+        z-index: -100;
+        opacity: .1;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 0.6rem;
+        font-family: "Poppins", 'sans-serif';
+        /* background-color: #f89827; */
+        
+
+    }
+    
+    .services-page .img-1 {
+        /* position: absolute;   
+        width:150px;
+        height:150px;
+        top: -2%;
+        left:30%; */
+        display:none;
+        
+    }
+
+    .services-page .img-2 {
+        /* position: absolute;   
+        width:150px;
+        height:150px;
+        bottom: -2%;
+        right:30%; */
+        display:none;
+    }
+
+    .services-box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 150px;
+        grid-gap: 10px;
+        align-content: center;
+        height: 100vh;
+        justify-content: center; 
+        margin-top: -10px;
+        
+        
+    }
+    .services-right{
+        position: relative;        
+        right:0px;
+
+    }
+
+    .services-left{
+        
+        left:0px;
+
+    }
+
+    .services-box h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.4rem;
+        font-family: "Poppins", 'sans-serif';        
+        position: relative;
+    }
+
+    .services-box p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;    
+        font-family: "Poppins", 'sans-serif';
+        height: fit-content;
+        width: fit-content;
+        text-align: justify;
+    }
+
+    
+    
+
+}
+@media screen and (min-width: 400px) 
 and (max-width: 600px) {
     
     .services-page {
