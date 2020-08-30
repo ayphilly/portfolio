@@ -15,6 +15,7 @@ const exploreLink = styled.a`
     transition: all 0.5s ease-in;
     width: 30%
     height:40px;
+    font-family:Poppins;
 
     &:hover {
         color: #000;
