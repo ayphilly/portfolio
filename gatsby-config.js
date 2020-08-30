@@ -10,7 +10,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
-      resolve: `gatsby-plugin-styled-components`,
       options: {
         // name: `images`,
         name: `src`,
@@ -29,6 +28,15 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/portfolio.svg`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Change plugin default options here, e.g.:
+        // ssr: false
+        // displayName: false,
+        // minify: false
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
