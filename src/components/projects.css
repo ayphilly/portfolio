@@ -160,7 +160,7 @@
     text-align: justify;   
     font-family: "Poppins", 'sans-serif';
     height: fit-content;
-    width: 1090%;
+    width: 90%;
     
 }
 
@@ -314,7 +314,7 @@ and (max-width: 600px) {
         
     }
 
-    .project-text {
+    /* .project-text {
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
@@ -323,6 +323,25 @@ and (max-width: 600px) {
         font-family: "Poppins", 'sans-serif';
         height: fit-content;
         width: 80%;
+        
+    } */
+
+    .project-text {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: flex-end;
+        
+    }
+    .project-text p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 25px;
+        text-align: justify;   
+        font-family: "Poppins", 'sans-serif';
+        height: fit-content;
+        width: 100%;
         
     }
 
