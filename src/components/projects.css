@@ -181,6 +181,7 @@ and (max-width: 600px) {
         /* margin-bottom: 50px;         */
         align-items:flex-start;
         justify-content: space-between;
+        background-color: pink;
         /* margin-top:100px;        */
         
         position: relative;
