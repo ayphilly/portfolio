@@ -89,9 +89,6 @@
 
 }
 
-.project-explore {
-    width:90%;
-}
 .project::after {
     position: absolute;
     top:-15px;
@@ -149,6 +146,13 @@
 }
 
 .project-text {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-end;
+    
+}
+.project-text p {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -156,9 +160,10 @@
     text-align: justify;   
     font-family: "Poppins", 'sans-serif';
     height: fit-content;
-    width: 90%;
+    width: 1090%;
     
 }
+
 
 
 /* Responsiveness mobile */

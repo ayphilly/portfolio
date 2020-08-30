@@ -47,9 +47,12 @@ const Projects = () => {
                             <div className="project-top">
                                 <h1 className="project-header"> { node.frontmatter.title} </h1>
                                 <p className="project-logo"> { node.frontmatter.date} </p>
-                            </div>                            
-                            <p className="project-text"> {node.excerpt}</p><br/>
-                            <Explore link = {node.frontmatter.link} className="project-explore" />
+                            </div> 
+                            <div className="project-text">
+                                <p> {node.excerpt}</p><br/>
+                                <Explore link = {node.frontmatter.link} />
+                            </div>                          
+                            
                         </div>
                     } )
                 }
