@@ -60,12 +60,12 @@
     width: fit-content;
     display: grid;
     grid-template-columns: 371.86px 371.86px 371.86px;
-    grid-template-rows: 293.09px 293.09px;
+    grid-template-rows: 320px 320px;
     grid-gap: 50px 40px;
-    align-content: center;
+    
     height: 100vh;
     justify-content: center; 
-    
+    align-items:flex-start;
     /* padding:20px;  */
     /* background-color: #f89827;       */
      
@@ -218,10 +218,10 @@ and (max-width: 600px) {
         height:90%;
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: 253.09px;
+        grid-template-rows: 275px;
         grid-gap: 50px 50px;
-        align-items:center;
-        align-content: center;        
+        align-items:flex-start;
+        /* align-content: center;         */
         justify-content: center;
         margin-left:-10px; 
         

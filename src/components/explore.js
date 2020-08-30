@@ -3,19 +3,20 @@ import styled from 'styled-components'
 
 
 const  Explore = props => {
-
-    return <ExploreLink href={props.link} target="_blank"> Explore </ExploreLink>
+    const text = "Explore>";
+    return <ExploreLink href={props.link} target="_blank"> {text} </ExploreLink>
 }
 
 const ExploreLink = styled.a`
-    color: red;
-    background-color: purple;
+    color: #000;
+    background-color: #fff;
     font-size: 15px;
     font-weight:bold;
     transition: all 0.5s ease-in;
-    width: 30%
-    height:40px;
+    width: 70%
+    height:60px;
     font-family:Poppins;
+    text-decoration: none;
 
     &:hover {
         color: #000;
