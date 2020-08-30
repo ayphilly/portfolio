@@ -175,7 +175,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        height:250vh;
+        min-height:300vh;
         display: flex;
         flex-direction: column;        
         /* margin-bottom: 50px;         */
