@@ -175,7 +175,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        min-height:300vh;
+        min-height:500vh;
         display: flex;
         flex-direction: column;        
         /* margin-bottom: 50px;         */
@@ -227,7 +227,7 @@ and (max-width: 600px) {
 
     .projects-box {
         width: fit-content;
-        height:90%;
+        height:100%;
         display: grid;
         grid-template-columns: 300px;
         grid-template-rows: 280px;
