@@ -8,8 +8,8 @@ const  Explore = props => {
 }
 
 const exploreLink = styled.a`
-    color: #000;
-    background-color: #fff;
+    color: red;
+    background-color: purple;
     font-size: 15px;
     font-weight:bold;
     transition: all 0.5s ease-in;
