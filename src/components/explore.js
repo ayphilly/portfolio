@@ -14,9 +14,10 @@ const ExploreLink = styled.a`
     font-weight:bold;
     transition: all 0.5s ease-in;
     width: 100px;
-    height:60px;
+    height:30px;
     font-family:Poppins;
     text-decoration: none;
+    text-align:center;
 
     &:hover {
         color: #000;
