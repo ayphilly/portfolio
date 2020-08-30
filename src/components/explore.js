@@ -13,7 +13,7 @@ const ExploreLink = styled.a`
     font-size: 15px;
     font-weight:bold;
     transition: all 0.5s ease-in;
-    width: 70%
+    width: 100px;
     height:60px;
     font-family:Poppins;
     text-decoration: none;
