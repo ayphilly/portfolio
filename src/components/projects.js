@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./projects.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Explore from "./explore";
 
 const Projects = () => {
 
@@ -20,6 +21,7 @@ const Projects = () => {
                 title
                 date
                 author
+                link
               }
               excerpt(pruneLength: 350)
               timeToRead
@@ -47,6 +49,7 @@ const Projects = () => {
                                 <p className="project-logo"> { node.frontmatter.date} </p>
                             </div>                            
                             <p className="project-text"> {node.excerpt}</p><br/>
+                            <Explore link = {node.link} />
                         </div>
                     } )
                 }
