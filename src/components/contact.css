@@ -188,6 +188,162 @@ form input[type="email"] {
 /* Responsiveness mobile */
 
 @media screen and (min-width: 300px) 
+and (max-width: 400px) {
+    input[type="email"]{ font-size: 16px; }
+    .contact {     
+        display:flex;
+        flex-direction: column;  
+        width:100%;
+        margin-top:50px;
+        margin-bottom:0px;        
+    }
+    .contact .error {
+        width: fit-content;
+        height:auto;
+    }
+    .form-cover {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;    
+        justify-content: space-between;
+        width:80%;
+    }
+    
+
+    form b {
+
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Poppins", 'sans-serif';
+
+    }
+    form {
+        display:flex;
+        flex-direction: column;
+        align-items: center;        
+        width:100%;
+        
+    }
+
+    .form-mail {
+        display:flex;    
+        align-items: center;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width:100%;
+    }
+    form input[type="submit"] {
+        width:100px;
+        height: 50px;
+        color:#fff;
+        background-color: #000;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        font-family: "Poppins", 'sans-serif';
+        border:none;
+        transition: all 0.5s ease-in;
+        -webkit-transition: all 0.5s ease-in;
+        margin-top:30px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    input[type="email"]:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    form input[type="submit"]:hover {
+        transform: scale(1.1);
+    }
+    
+    form input[type="email"] {
+        width: 275px;
+        height: 40px;
+        background-color: transparent;
+        border: 2px solid #000;        
+        padding:5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    .popup-box {
+        position: fixed;
+        /* background: #00000050; */
+        width: 100%;
+        height: 100vh;
+        top: 25px;
+        left: 0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        align-content:center;        
+
+    }
+       
+    .box {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        height: 40vh;
+        max-height: 80vh;
+        margin-top: calc(100vh - 100vh - 20px);
+        background: #fff;
+        border-radius: 4px;
+        padding: 15px;
+        /* border: 1px solid #999; */
+        overflow: auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        font-family: "Poppins", 'sans-serif';
+        color:#000;
+        box-shadow: 5px 5px 15px 5px #dbdbdb;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .close-icon {
+        content: 'x';
+        cursor: pointer;
+        position: fixed;
+        right: calc(32% - 110px);
+        top: calc(100vh - 100vh - 22px);
+        background: #000;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        line-height: 30px;
+        text-align: center;
+        border: 1px solid #999;
+        font-size: 20px;
+        color:#fff;
+        text-align: center;
+        transition: all 0.5s ease-in;
+        -webkit-transition: all 0.5s ease-in;
+    }
+
+    .thank-you {    
+    
+        width:120px;
+        height:120px;
+        
+    }
+    
+    
+    
+
+}
+
+@media screen and (min-width: 400px) 
 and (max-width: 600px) {
     input[type="email"]{ font-size: 16px; }
     .contact {     
