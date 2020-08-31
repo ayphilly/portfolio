@@ -206,7 +206,7 @@ and (max-width: 600px) {
         flex-direction: column;
         align-items: flex-start;    
         justify-content: space-between;
-        width:70%;
+        width:80%;
     }
     
 
