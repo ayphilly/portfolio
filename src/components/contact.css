@@ -362,7 +362,7 @@ and (max-width: 600px) {
         flex-direction: column;
         align-items: flex-start;    
         justify-content: space-between;
-        width:80%;
+        width:90%;
     }
     
 
@@ -391,7 +391,7 @@ and (max-width: 600px) {
         width:100%;
     }
     form input[type="submit"] {
-        width:100px;
+        width:150px;
         height: 50px;
         color:#fff;
         background-color: #000;
