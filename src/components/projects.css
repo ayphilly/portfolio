@@ -359,7 +359,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        min-height:300vh;
+        min-height:250vh;
         display: flex;
         flex-direction: column;        
         /* margin-bottom: 50px;         */
@@ -420,7 +420,7 @@ and (max-width: 600px) {
         align-content: center;        
         justify-content: center;
         margin-left:-10px;        
-        margin-top: -240px;
+        margin-top: -220px;
         position: relative;
                     
         
