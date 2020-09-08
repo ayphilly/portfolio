@@ -359,7 +359,7 @@ and (max-width: 600px) {
         
     .projects-page {
         width: 100%;
-        min-height:250vh;
+        min-height:350vh;
         display: flex;
         flex-direction: column;        
         /* margin-bottom: 50px;         */
